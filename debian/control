@@ -1,0 +1,17 @@
+Source: ubuntu-plasma-theme
+Section: kde
+Priority: optional
+Maintainer: Usarin Heininga <usarinheininga@hotmail.com>
+Build-Depends: debhelper-compat (= 11)
+Standards-Version: 4.5.0
+Homepage: https://github.com/uszie/ubuntu-plasma-theme
+#Vcs-Browser: https://salsa.debian.org/debian/ubuntu-plasma-theme
+#Vcs-Git: https://salsa.debian.org/debian/ubuntu-plasma-theme.git
+Rules-Requires-Root: no
+
+Package: ubuntu-plasma-theme
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Ubuntu Plama Theme
+ This theme package provides a plasma theme, an icon set and a color scheme.
+ It's based on Breeze but uses ubuntu colors.
