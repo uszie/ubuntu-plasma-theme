@@ -11,7 +11,12 @@ Rules-Requires-Root: no
 
 Package: ubuntu-plasma-theme
 Architecture: any
-Depends: material-decoration, ${shlibs:Depends}, ${misc:Depends}
+Depends: material-decoration,
+         latte-dock,
+         latte-indicators,
+         material-decoration,
+         plasma-latte-applets,
+         ${shlibs:Depends}, ${misc:Depends}
 Description: Ubuntu Plama Theme
  This theme package provides a plasma theme, an icon set and a color scheme.
  It's based on Breeze but uses ubuntu colors.
