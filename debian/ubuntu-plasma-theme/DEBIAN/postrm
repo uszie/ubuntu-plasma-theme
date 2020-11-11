@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_icons/13.2.1ubuntu1
+if which update-icon-caches >/dev/null 2>&1 ; then
+	update-icon-caches /usr/share/icons/ubuntu-breeze-dark /usr/share/icons/ubuntu-breeze-light
+fi
+# End automatically added section

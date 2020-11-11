@@ -1,0 +1,12 @@
+./colors/UbuntuBreeze.colors
+./colors/UbuntuBreezeDark.colors
+./colors/UbuntuBreezeLight.colors
+./desktoptheme/ubuntu-breeze
+./desktoptheme/ubuntu-breeze-dark
+./desktoptheme/ubuntu-breeze-light
+./icons/ubuntu-breeze-dark
+./icons/ubuntu-breeze-light
+./look-and-feel/org.ubuntu-plasma-dark.desktop
+./look-and-feel/org.ubuntu-plasma-light.desktop
+./wallpaper/Ubuntu
+./latte-templates/Ubuntu Plasma.layout.latte
