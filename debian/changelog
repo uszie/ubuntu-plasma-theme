@@ -1,8 +1,14 @@
 ubuntu-plasma-theme (1.0.1) UNRELEASED; urgency=medium
 
+  * Change logo colors.
+
+ -- Usarin Heininga <usarinheininga@hotmail.com>  Wed, 11 Nov 2020 09:26:20 +0100
+
+ubuntu-plasma-theme (1.0.1) UNRELEASED; urgency=medium
+
   * Fix look and feel packages and tweak default latte layout.
 
- -- Usarin Heininga <usarinheininga@hotmail.com>  Tue, 10 Nov 2020 21:32:55 +0100
+ -- Usarin Heininga <usarinheininga@hotmail.com>  Wed, 11 Nov 2020 09:25:24 +0100
 
 ubuntu-plasma-theme (1.0) UNRELEASED; urgency=medium
 
