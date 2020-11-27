@@ -1,3 +1,9 @@
+ubuntu-plasma-theme (1.0.5) UNRELEASED; urgency=medium
+
+  * Change applet-window-buttons visibility to AnyMaximizedWindow.
+
+ -- Usarin Heininga <usarinheininga@hotmail.com>  Fri, 27 Nov 2020 22:45:34 +0100
+
 ubuntu-plasma-theme (1.0.4) UNRELEASED; urgency=medium
 
   * Team upload.
