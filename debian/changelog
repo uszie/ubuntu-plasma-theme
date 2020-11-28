@@ -1,3 +1,10 @@
+ubuntu-plasma-theme (1.0.6) UNRELEASED; urgency=medium
+
+  * Add gtk3-nocsd dependency. This makes gtk3 apps look more
+    integrated.
+
+ -- Usarin Heininga <usarinheininga@hotmail.com>  Sat, 28 Nov 2020 22:19:29 +0100
+
 ubuntu-plasma-theme (1.0.5) UNRELEASED; urgency=medium
 
   * Change applet-window-buttons visibility to AnyMaximizedWindow.
