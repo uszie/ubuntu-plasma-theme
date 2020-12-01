@@ -1,3 +1,9 @@
+ubuntu-plasma-theme (1.0.7) UNRELEASED; urgency=medium
+
+  * Rebuild.
+
+ -- Usarin Heininga <usarinheininga@hotmail.com>  Tue, 01 Dec 2020 09:55:46 +0100
+
 ubuntu-plasma-theme (1.0.6) UNRELEASED; urgency=medium
 
   * Add gtk3-nocsd dependency. This makes gtk3 apps look more
