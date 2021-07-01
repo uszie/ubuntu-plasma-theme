@@ -10,11 +10,14 @@ formfactor=3
 immutability=1
 isPreferredForShortcuts=false
 lastScreen=-1
+layoutId=
 location=5
+name=
 onPrimary=true
 plugin=org.kde.latte.containment
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
+settingsComplexity=4
 timerHide=700
 timerShow=200
 viewType=0
@@ -25,69 +28,58 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.latte.plasmoid
 
-[Containments][1][Applets][2][Configuration]
-PreloadWeight=0
-
 [Containments][1][Applets][2][Configuration][General]
-launchers59=applications:firefox.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop
+isInLatteDock=true
+launchers59=applications:firefox.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop,applications:systemsettings.desktop,applications:org.kde.konsole.desktop
 manualScrollTasksType=Disabled
 
 [Containments][1][Applets][26]
 immutability=1
 plugin=org.kde.plasma.umenu
 
-[Containments][1][Applets][26][Configuration]
-PreloadWeight=33
-
 [Containments][1][Applets][26][Configuration][General]
 appNameFormat=3
 favoritesFirst=true
 favoritesPortedToKAstats=true
 
-[Containments][1][Configuration]
-PreloadWeight=0
-
 [Containments][1][General]
+activeWindowFilter=MaximizedInCurrentScreen
 advanced=false
 alignment=10
 alignmentUpgraded=true
 appletOrder=2;26
+appletShadowsEnabled=false
 backgroundShadowSize=10
 customBackgroundColor=#1d1d1d
 customForegroundColor=#f7f7f7
-panelPosition=Top
+iconSize=16
+panelPosition=10
+panelShadows=false
 panelSize=100
 panelTransparency=70
+proportionIconSize=4.4
 shadowOpacity=50
 shadowSize=30
 shadows=All
 shadowsUpgraded=true
 showGlow=false
-splitterPosition=1
-splitterPosition2=2
+splitterPosition=2
+splitterPosition2=3
 tasksUpgraded=true
 themeColors=CustomThemeColors
-thickMargin=0
+thickMargin=17
 zoomLevel=0
 
 [Containments][1][Indicator]
 customType=org.kde.latte.dashtopanel
 enabled=true
-type=org.kde.latte.dashtopanel
+enabledForApplets=true
+padding=0.07999999821186066
+type=org.kde.latte.plasma
 
 [Containments][1][Indicator][org.kde.latte.dashtopanel][General]
 lengthPadding=0.03
 lineThickness=0.05
-
-[Containments][11]
-PreloadWeight=0
-activityId=
-formfactor=2
-immutability=1
-lastScreen=-1
-location=3
-plugin=org.kde.plasma.private.systemtray
-wallpaperplugin=org.kde.image
 
 [Containments][4]
 activityId=
@@ -98,11 +90,14 @@ formfactor=2
 immutability=1
 isPreferredForShortcuts=false
 lastScreen=-1
+layoutId=
 location=3
+name=
 onPrimary=true
 plugin=org.kde.latte.containment
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
+settingsComplexity=4
 timerHide=700
 timerShow=200
 viewType=0
@@ -113,23 +108,14 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.systemtray
 
-[Containments][4][Applets][10][Configuration]
-PreloadWeight=67
-SystrayContainmentId=11
-
 [Containments][4][Applets][24]
 immutability=1
 plugin=org.kde.plasma.userswitcher
-
-[Containments][4][Applets][24][Configuration]
-PreloadWeight=38
 
 [Containments][4][Applets][30]
 immutability=1
 plugin=org.kde.latte.spacer
 
-[Containments][4][Applets][30][Configuration]
-PreloadWeight=0
 
 [Containments][4][Applets][30][Configuration][General]
 containmentType=Latte
@@ -139,38 +125,32 @@ lengthPixels=64
 immutability=1
 plugin=org.kde.windowappmenu
 
-[Containments][4][Applets][31][Configuration]
-PreloadWeight=0
-
 [Containments][4][Applets][31][Configuration][General]
 containmentType=Latte
 filterByActive=false
-filterByMaximized=true
+filterByAnyMaximized=true
+filterByScreen=true
+isStackingOrderSupported=true
 supportsActiveWindowSchemes=true
 
 [Containments][4][Applets][32]
 immutability=1
 plugin=org.kde.windowbuttons
 
-[Containments][4][Applets][32][Configuration]
-PreloadWeight=0
-
 [Containments][4][Applets][32][Configuration][General]
+buttonSizePercentage=70
 buttons=3|4|5|10|2|9
 containmentType=Latte
+isStackingOrderSupported=true
 lengthFirstMargin=4
 lengthLastMargin=4
 selectedPlugin=
 selectedScheme=kdeglobals
-spacing=6
 visibility=AnyMaximizedWindow
 
 [Containments][4][Applets][33]
 immutability=1
 plugin=org.kde.latte.separator
-
-[Containments][4][Applets][33][Configuration]
-PreloadWeight=0
 
 [Containments][4][Applets][33][Configuration][General]
 lengthMargin=5
@@ -179,65 +159,72 @@ lengthMargin=5
 immutability=1
 plugin=org.kde.plasma.betterinlineclock
 
-[Containments][4][Applets][34][Configuration]
-PreloadWeight=67
-
 [Containments][4][Applets][34][Configuration][Appearance]
 customDateFormat=MMM d\s
 dateFormat=customDate
-enabledCalendarPlugins=/usr/lib/x86_64-linux-gnu/qt5/plugins/plasmacalendarplugins/holidaysevents.so
+enabledCalendarPlugins=/usr/lib/x86_64-linux-gnu/qt5/plugins/plasmacalendarplugins/holidaysevents.so,/usr/lib/x86_64-linux-gnu/qt5/plugins/plasmacalendarplugins/pimevents.so
 fixedFont=true
 fontSize=16
 showSeparator=false
 showWeekNumbers=true
 
-[Containments][4][Configuration]
-PreloadWeight=0
-
 [Containments][4][General]
+activeWindowFilter=MaximizedInCurrentScreen
 advanced=false
 alignment=10
 alignmentUpgraded=true
+animationsEnabled=false
 appletOrder=30;31;34;24;10;33;32
 appletShadowsEnabled=false
 autoDecreaseIconSize=false
+autoSizeEnabled=false
 backgroundShadowSize=5
+blurEnabled=false
+closeWindowEnabled=true
 customBackgroundColor=#1d1d1d
 customForegroundColor=#f7f7f7
 disablePanelShadowForMaximized=true
 dragActiveWindowEnabled=true
-iconSize=24
+dragWindowEnabled=true
+iconSize=28
+lastWindowsVisibilityMode=7
 panelPosition=10
 panelSize=100
+scrollAction=ScrollTasks
 shadowOpacity=40
 shadowSize=45
+shadows=None
 shadowsUpgraded=true
 shrinkThickMargins=true
-splitterPosition=2
-splitterPosition2=4
+splitterPosition=3
+splitterPosition2=5
 tasksUpgraded=true
-themeColors=CustomThemeColors
-windowColors=TouchingWindowColors
+themeColors=5
+thickMargin=0
+windowColors=MaximizedWindowColors
 zoomLevel=0
 
 [Containments][4][Indicator]
 customType=org.kde.latte.dashtopanel
 enabled=true
-type=org.kde.latte.default
+enabledForApplets=true
+padding=0.07999999821186066
+type=org.kde.latte.plasma
 
 [Containments][4][Indicator][org.kde.latte.dashtopanel][General]
 isReversed=true
 
+[Containments][4][Indicator][org.kde.latte.default][General]
+reversed=true
+
+[Containments][4][Indicator][org.kde.latte.plasma][General]
+lengthPadding=0
+
 [LayoutSettings]
-activities=
 backgroundStyle=0
 color=purple
-customBackground=
-customTextColor=
 disableBordersForMaximizedWindows=true
-icon=
-lastUsedActivity=3577ecae-3f36-42f2-8ead-57cee2b48f0c
-launchers=
+popUpMargin=-1
 preferredForShortcutsTouched=false
 showInMenu=true
 version=2

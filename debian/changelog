@@ -1,8 +1,9 @@
-ubuntu-plasma-theme (1.0.7) UNRELEASED; urgency=medium
+ubuntu-plasma-theme (1.0.7ubuntu1) UNRELEASED; urgency=medium
 
-  * Rebuild.
+  * Update latte dock template.
+  * Set window decoration to Breeze LIM.
 
- -- Usarin Heininga <usarinheininga@hotmail.com>  Tue, 01 Dec 2020 09:55:46 +0100
+ -- Usarin Heininga <usarinheininga@hotmail.com>  Thu, 01 Jul 2021 15:43:54 +0200
 
 ubuntu-plasma-theme (1.0.6) UNRELEASED; urgency=medium
 

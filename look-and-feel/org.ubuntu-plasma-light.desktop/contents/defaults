@@ -26,5 +26,6 @@ LayoutName=org.kde.breeze.desktop
 LayoutName=big_icons
 
 [kwinrc][org.kde.kdecoration2]
-library=com.github.zren.material
-theme=Material
+ButtonsOnLeft=N
+library=org.kde.breeze-lim
+theme=Breeze Lim
