@@ -1,9 +1,15 @@
-ubuntu-plasma-theme (1.0.7ubuntu1) UNRELEASED; urgency=medium
+ubuntu-plasma-theme (1.0.8) UNRELEASED; urgency=medium
+
+  * Update to recent plasma
+
+ -- Usarin Heininga <usarinheininga@hotmail.com>  Sun, 24 Apr 2022 18:25:59 +0200
+
+ubuntu-plasma-theme (1.0.7ubuntu2) UNRELEASED; urgency=medium
 
   * Update latte dock template.
   * Set window decoration to Breeze LIM.
 
- -- Usarin Heininga <usarinheininga@hotmail.com>  Thu, 01 Jul 2021 15:43:54 +0200
+ -- Usarin Heininga <usarinheininga@hotmail.com>  Sun, 24 Apr 2022 18:25:59 +0200
 
 ubuntu-plasma-theme (1.0.6) UNRELEASED; urgency=medium
 
