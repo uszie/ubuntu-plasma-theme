@@ -105,14 +105,20 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.systemtray
 
+[Containments][4][Applets][10][Configuration]
+PreloadWeight=100
+SystrayContainmentId=17
+
 [Containments][4][Applets][24]
 immutability=1
 plugin=org.kde.plasma.userswitcher
 
+[Containments][4][Applets][24][Configuration][General]
+showFullName=false
+
 [Containments][4][Applets][30]
 immutability=1
 plugin=org.kde.latte.spacer
-
 
 [Containments][4][Applets][30][Configuration][General]
 containmentType=Latte
@@ -187,6 +193,7 @@ iconSize=28
 lastWindowsVisibilityMode=7
 panelPosition=10
 panelSize=100
+panelTransparency=100
 scrollAction=ScrollTasks
 shadowOpacity=40
 shadowSize=45
@@ -198,6 +205,7 @@ splitterPosition2=5
 tasksUpgraded=true
 themeColors=5
 thickMargin=0
+userBlocksColorizingApplets=10
 windowColors=MaximizedWindowColors
 zoomLevel=0
 
